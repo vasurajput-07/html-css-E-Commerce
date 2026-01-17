@@ -78,19 +78,9 @@ body {
     font-size: 1.25rem;
     margin: 0.25rem 1rem 0 2rem;
 }
-
-.cart .fa-bars {
-    font-size: 1.75rem;
-    transition: all 0.3s ease;
-}
-
-.cart .fa-bars:hover {
-    transform: scale(1.1) rotate(180deg);
-}
-
 /* Tranding page*/
 
-/* .trand-page {
+.trand-page {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,7 +91,7 @@ body {
 
 .trand-items i {
     font-size: 2rem;
-} */
+}
 
 .card-container {
     display: flex;
@@ -124,6 +114,10 @@ body {
 .card:hover {
      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
      transform: translateY(-2px) scale(1.01);
+}
+
+.card-more {
+    color: black;
 }
 
 footer {
